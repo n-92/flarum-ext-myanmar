@@ -1,0 +1,25 @@
+{
+    "name": "o92/flarum-ext-myanmar",
+    "type": "flarum-extension",
+    "description": "Myanmar language pack.",
+    "keywords": ["locale", "Myanmar"],
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^0.1.0-beta.8"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "ျမန္မာ",
+            "icon": {
+                "image": "icon.svg",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "mm",
+            "title": "ျမန္မာ"
+        }
+    }
+}
