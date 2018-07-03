@@ -2,10 +2,11 @@
     "name": "o92/flarum-ext-myanmar",
     "type": "flarum-extension",
     "description": "Myanmar language pack.",
+    "author": "o92",
     "keywords": ["locale", "Myanmar"],
-    "license": "MIT",
-    "require": {
-        "flarum/core": "^0.1.0"
+   "license": "MIT",
+        "require": {
+        "flarum/core": "^0.1.0-beta.7"
     },
     "extra": {
         "flarum-extension": {
