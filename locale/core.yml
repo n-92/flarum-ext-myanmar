@@ -225,23 +225,23 @@ core:
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      cannot_reply_button: Can't Reply
-      cannot_reply_text: You don't have permission to reply to this discussion.
+      cannot_reply_button: စာမပြန်ႏိုင္
+      cannot_reply_text: reply ရန်ခွင့်ပြုချက်မရှိပါ
       delete_button: => core.ref.delete
-      delete_confirmation: "Are you sure you want to delete this discussion?"
+      delete_confirmation: "သင်ဤဆွေးနွေးမှုကိုဖျက်ပစ်ချင်သင်သေချာပါသလား?"
       delete_forever_button: => core.ref.delete_forever
-      log_in_to_reply_button: Log In to Reply
+      log_in_to_reply_button: ပဌမ login လုပ်ဆောင်
       rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
     # These translations are used in the discussion list.
     discussion_list:
-      empty_text: It looks like there are no discussions here.
+      empty_text: ဤနေရာတွင်အဘယ်သူမျှမဆွေးနွေးပါ
       load_more_button: => core.ref.load_more
       mark_as_read_tooltip: Mark as Read
-      replied_text: "{username} replied {ago}"
-      started_text: "{username} started {ago}"
+      replied_text: "{username} ပြန်ကြားချက် {ago}"
+      started_text: "{username} စတင် {ago}"
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
@@ -261,20 +261,20 @@ core:
     forgot_password:
       dismiss_button: => core.ref.okay
       email_placeholder: => core.ref.email
-      email_sent_message: We've sent you an email containing a link to reset your password. Check your spam folder if you don't receive it within the next minute or two.
-      not_found_message: There is no user registered with that email address.
-      submit_button: Recover Password
-      text: Enter your email address and we will send you a link to reset your password.
-      title: Forgot Password
+      email_sent_message: သင့်ရဲ့အီးမေးလ် link တစ်ခုစေလွှတ်ပြီ။ ကျေးဇူးပြုပြီးစစ်ဆေးပါ
+      not_found_message: ဤအသုံးပြုသူသည်မတည်ရှိပါဘူး
+      submit_button: password ျပန္ရယူရန္
+      text: email ကို႐ိုက္ထည့္ပါ။ ထို႕email သို႕ link ပို႕ေပပါမည္
+      title: စကားဝှက်ကိုမေ့နေပါသလား?
 
     # These translations are used in the header and session dropdown menu.
     header:
       admin_button: Administration
-      back_to_index_tooltip: Back to Discussion List
+      back_to_index_tooltip: ယခင်ဆွေးနွေးမှုများကိုသွား ရန္
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: Profile
-      search_placeholder: Search Forum
+      search_placeholder: forum ကိုရွာရန္
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
